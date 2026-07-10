@@ -127,3 +127,86 @@ margin-bottom: 150px;
 .contain p{
     color: gray;
 }
+/* pricing section style */
+.pricing-title{
+    text-align: center;
+
+}
+.pricing-title h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pricing-title p{
+    color: gray;
+}
+.pricing-card{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 30px;
+}
+.subcription{
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+.pricing-card h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+.pricing-card p{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.list-item{
+    padding: 20px;
+    border-top: 2px solid gray;
+}
+.list-item ul li{
+    color: gray;
+    font-size: 14px;
+}
+.list-item ul li::marker{
+    color: #1d4ed8;
+}
+.pricing-btn button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-1 button{
+    border: 2px solid #1d4ed8;
+    background-color: white;
+    color: #1d4ed8;
+}
+.btn-2 button{
+    border: 2px solid #1d4ed8;
+    background-color: #1d4ed8;
+    color: white;
+}
+.btn-3 button{
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.pro-card {
+    background-color: #0D1B2A;
+
+}
+.pro-card h2{
+    color: white;
+}
+.pro-card .subcription{
+    color: #1d4ed8;
+}
+.pricing-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+
