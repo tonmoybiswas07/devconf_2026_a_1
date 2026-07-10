@@ -228,6 +228,12 @@ footer{
 hr{
     border: 1px solid gray;
 }
+.right-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .bottom-footer {
     display: flex;
     justify-content: space-between;
@@ -236,10 +242,5 @@ hr{
     text-align: center;
     padding: 20px 0px;
 }
-.right-f{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+
 
