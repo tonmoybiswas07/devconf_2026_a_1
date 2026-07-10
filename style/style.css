@@ -1,50 +1,94 @@
 /* dev-conf-2026 style is here */
 /* google font import link here */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* google font */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
- 
+
   font-style: normal;
 }
 /* universal class */
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 /* shared style */
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
 }
 
 /* navbar style  */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
 }
-.navbar nav ul{
+.navbar nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+.navbar nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #575757;
+}
+.navbar-right button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: bold;
+}
+/* banner style */
+.banner {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+.banner h1 span {
+  font-style: italic;
+}
+.banner p {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.button button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    list-style: none;
-}
-.navbar nav ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #575757;
-}
-.navbar-right button{
-padding: 12px 24px;
-border: none;
-border-radius: 12px;
-background-color: #1D4ED8;
-color: white;
-font-weight: bold;
+    margin-top: 100px;
 }
