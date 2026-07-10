@@ -144,6 +144,7 @@ margin-bottom: 150px;
     border: 1px solid gray;
     border-radius: 15px;
     padding: 30px;
+    width: 350px;
 }
 .subcription{
     font-size: 13px;
@@ -208,5 +209,28 @@ margin-bottom: 150px;
     align-items: center;
     gap: 30px;
     margin: 50px 0px;
+}
+/* footer style here */
+footer{
+    background-color: #0D1B2A;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.icon a i{
+    color: gray;
+    font-size: 32px;
+    margin-right: 10px;
+}
+hr{
+    border: 1px solid gray;
+}
+.bottom-footer p{
+    color: gray;
+    text-align: center;
+    padding: 20px 0px;
 }
 
