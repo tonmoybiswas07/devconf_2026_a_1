@@ -9,3 +9,42 @@
  
   font-style: normal;
 }
+/* universal class */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* shared style */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navbar style  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
+.navbar-right button{
+padding: 12px 24px;
+border: none;
+border-radius: 12px;
+background-color: #1D4ED8;
+color: white;
+font-weight: bold;
+}
