@@ -228,9 +228,18 @@ footer{
 hr{
     border: 1px solid gray;
 }
-.bottom-footer p{
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: gray;
     text-align: center;
     padding: 20px 0px;
+}
+.right-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
